@@ -1,0 +1,237 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.highcharts-credits{
+  display: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.otp-input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.otp-input:last-child {
+  margin-right: 0;
+}
+
+.submit-btn {
+  background-color: #9b51e0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.resend-btn {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover, .resend-btn:hover {
+  opacity: 0.8;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  background: #eee;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.status {
+  margin-left: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
+}
+
+.messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.message {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left .message-content {
+  background: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+}
+
+.right .message-content {
+  background: #a0c4ff;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.recommendation {
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.input-container {
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+
+
+
